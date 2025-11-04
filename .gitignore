@@ -1,0 +1,30 @@
+# Build and binary files
+*.obj
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ipch
+*.log
+
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.vcxproj.*
+*.opensdf
+*.cache
+*.db
+
+# CMake (if used)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Backup and temp
+*.bak
+*.tmp
+
+# OpenCV build artifacts (if custom-built)
+build/

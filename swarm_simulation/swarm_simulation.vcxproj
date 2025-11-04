@@ -126,7 +126,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="mazeGeneration.cpp" />
     <ClCompile Include="swarm_simulation.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mazeGeneration.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

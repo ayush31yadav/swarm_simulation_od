@@ -1,3 +1,4 @@
+#pragma once
 #include "mazeGeneration.hpp"
 #include <algorithm>
 #include <ctime>
@@ -175,4 +176,14 @@ void MazeGenerator::printMaze() const {
         }
         std::cout << "\n";
     }
+}
+
+int MazeGenerator::getWidth()
+{
+    return width;
+}
+
+int MazeGenerator::getHeight()
+{
+    return height;
 }

@@ -1,6 +1,7 @@
 #ifndef MAZE_GENERATOR_HPP
 #define MAZE_GENERATOR_HPP
 
+#pragma once
 #include <vector>
 #include <random>
 #include <opencv2/opencv.hpp>
@@ -37,6 +38,8 @@ public:
     const std::vector<LineSegment>& getWalls() const;
     cv::Mat renderToImage(int cellSize, int wallThickness) const;
     void printMaze() const;
+    int getWidth();
+    int getHeight();
 };
 
 #endif // MAZE_GENERATOR_HPP
